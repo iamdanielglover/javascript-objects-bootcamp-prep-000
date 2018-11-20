@@ -1,7 +1,10 @@
-var playlist = {keys: "songTitle"};
+var playlist = {
+  'Greenday':'American Idiot',
+  'Blink 182':'First Date'
+};
 
-function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle;
+function  updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName]=songTitle;
   return playlist;
 }
 
